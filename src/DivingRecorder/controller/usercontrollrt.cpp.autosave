@@ -1,0 +1,11 @@
+#include "usercontrollrt.h"
+
+UserControllrt::UserControllrt()
+{
+    
+}
+
+void UserControllrt::addUser(QString name, QString pwd)
+{
+    
+}

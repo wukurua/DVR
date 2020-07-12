@@ -1,0 +1,15 @@
+#ifndef USERCONTROLLRT_H
+#define USERCONTROLLRT_H
+
+#include <QString>
+#include "../model/user.h"
+
+class UserControllrt
+{
+public:
+    UserControllrt();
+    ~UserControllrt();
+    void addUser(QString name,QString pwd);
+};
+
+#endif // USERCONTROLLRT_H

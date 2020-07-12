@@ -1,0 +1,45 @@
+#ifndef VIDEOPLAYBACKWINDOW_H
+#define VIDEOPLAYBACKWINDOW_H
+
+#include <QWidget>
+#include <QPushButton>
+#include <QToolButton>
+#include <QDateEdit>
+#include <QLabel>
+#include <QCalendarWidget>
+#include <QScrollArea>
+#include "control/showvideotable.h"
+#include "../tool/singledboption.h"
+#include "../controller/videocontroller.h"
+#include "videoplaybackwindow.h"
+
+class VideoPlayBackChooseWindow : public QWidget
+{
+    Q_OBJECT
+public:
+    VideoPlayBackChooseWindow(QWidget *parent = nullptr);
+    ~VideoPlayBackChooseWindow();
+protected:
+    void initWidgets();
+    void initLayout();
+    void initConnect();
+private:
+    QLabel *lblTitle;
+    QLabel *lblBegin;
+    QDateEdit *etDateBegin;
+    QLabel *lblEnd;
+    QDateEdit *etDateEnd;
+    QPushButton *btnSearch;
+    QLabel *lblMsg;
+    ShowVideoTable *table;
+    QScrollArea *scroll;
+    VideoController *videoController;
+    VideoPlayBackWindow *videoPlayBackWin;
+signals:
+    void resetVideoRecord();
+public slots:
+    void searchVideoRecord();
+    void playVideoChoosed(int row,int col);
+};
+
+#endif // VIDEOPLAYBACKWINDOW_H

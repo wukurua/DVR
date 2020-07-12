@@ -1,0 +1,29 @@
+#ifndef VIDEOPLAYERWIN_H
+#define VIDEOPLAYERWIN_H
+
+#include "control/player.h"
+#include "widget.h"
+
+#include "../controller/fdecode.h"
+
+class VideoPlayerWin : public Widget
+{
+    Q_OBJECT
+public:
+    explicit VideoPlayerWin(Widget *parent = nullptr);
+    ~VideoPlayerWin();
+protected:
+    void initWidgets();
+    void initLayout();
+    void initConnect();
+private:
+    QPushButton *btnYUV;
+    FDecode *fdecode;
+    Player *player;
+public slots:
+    void toYUV();
+    void jumpToSettingWinWin();
+    void showHomeWin();
+};
+
+#endif // VIDEOPLAYERWIN_H

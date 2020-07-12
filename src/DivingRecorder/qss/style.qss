@@ -1,0 +1,453 @@
+QWidget{
+    background: rgb(42,42,42);
+}
+
+QWidget#white{
+    background: white;
+}
+
+QLabel{
+    font-size: 18px;
+    font-family: 'Tahoma';
+    border: 0;
+    border-radius: 0px;
+    padding: 2px;
+    background: #fff;
+    font: bold;
+}
+
+QLabel#black{
+    font-size: 15px;
+    font-family: 'Tahoma';
+    border: 0;
+    border-radius: 0px;
+    padding: 2px;
+    background: rgb(42,42,42);
+    color:white;
+}
+
+QLabel#darkblack{
+    border: 0;
+    background: rgb(18,18,18);
+}
+
+QLabel#lblWrap{
+    border-radius: 15px;
+    background: #fff;
+}
+
+QLabel#lblTitle{
+    font-family: 'Tahoma';
+    font-size: 30px;
+    font: bold;
+}
+
+QLabel#lblMsg{
+    font-family: 'Tahoma';
+    font-size: 14px;
+    color: #c21f30;
+}
+
+
+
+QLineEdit {
+    font-family: 'Tahoma';
+    border: 0;
+    border-bottom: 2px solid gray;
+    padding: 0 8px;
+    background: #fff;
+}
+
+QLineEdit#etCode, #etFilePath{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #fff;
+}
+
+QLineEdit[echoMode="2"]{
+    lineedit-password-character: 9679;
+}
+
+QLineEdit:hover{
+    border-bottom: 2px solid #c21f30;
+}
+
+QLineEdit#etCode:hover{
+    border: 2px solid #c21f30;
+}
+
+
+
+
+QPushButton{
+    font-size: 18px;
+    font-family: 'Tahoma';
+    border: 0;
+    color: white;
+    border-radius: 6px;
+    background: rgb(15,70,133);
+    font: bold;
+}
+
+QPushButton#yellow{
+    background: #eae0c2;
+    border-radius: 5px;
+    font-family: 'Tahoma';
+    color: black;
+    font-size: 16px;
+    padding: 12px 30px 12px 30px;
+    border: solid #333029 2px;
+    text-decoration: none;
+}
+
+QPushButton#yellow:hover {
+    color: white;
+    background: #41ae3c;
+    text-decoration: none;
+}
+
+QPushButton#btnNotBorder{
+    font-size: 18px;
+    border: 0;
+    color: #2a5298;
+    font: bold;
+    background: #fff;
+}
+
+QPushButton#btnFreshCode{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/refresh.png);
+}
+
+QPushButton#btnCheckMore{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border: 2px;
+    border-image: url(:/img/check_more.png);
+}
+
+QPushButton#btnReturn{
+    font-size: 18px;
+    border: 0;
+    color: #fff;
+    border-radius: 6px;
+    min-width: 80px;
+    font: bold;
+    background: #80766e;
+}
+
+QPushButton#btnPwdShow{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(":/img/view_off.png");
+}
+
+QPushButton#btnPwdShow:hover{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(":/img/view_off_hover.png");
+}
+
+
+QPushButton#btnPwdShow:checked{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(":/img/view.png");
+}
+
+QPushButton#btnPwdShow:checked:hover{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(":/img/view_hover.png");
+}
+
+QPushButton:hover{
+    background: #41ae3c;
+}
+
+QPushButton#btnPlay{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/play.png);
+    background: rgb(18,18,18);
+}
+
+QPushButton#btnPlay:checked{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(":/img/pause.png");
+    background: rgb(18,18,18);
+}
+
+QPushButton#btnLastOne{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/lastone.png);
+    background: rgb(18,18,18);
+}
+
+QPushButton#btnNextOne{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/nextone.png);
+    background: rgb(18,18,18);
+}
+
+QPushButton#btnSnap{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/snap.png);
+    background: rgb(18,18,18);
+}
+
+QPushButton#btnNotBorder:hover{
+    color: #41ae3c;
+    font: bold;
+}
+
+QPushButton#btnReturn:hover{
+    background: #b7a091;
+    font: bold;
+}
+
+QPushButton#btnFreshCode:hover{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/refresh_hover.png);
+}
+
+QPushButton#btnClose{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/close.png);
+}
+
+QPushButton#btnClose:hover{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/close_hover.png);
+}
+
+QPushButton#btnMinimize{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/minimize.png);
+}
+
+QPushButton#btnMinimize:hover{
+    color: #fff;
+    background: #fff;
+    border-radius: 0px;
+    border-image: url(:/img/minimize_hover.png);
+}
+
+
+
+
+QToolButton#btnSetting{
+    color: black;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+QToolButton#btnSetting:hover{
+    border-radius: 12px;
+    font: bold;
+    border: 3px solid #c21f30;
+}
+
+
+
+
+QComboBox {
+    font-family: 'Tahoma';
+    border: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 0 8px;
+    background: #fff;
+    outline: 0px;
+}
+
+QComboBox:editable {
+    color:rgb(18,18,18);
+    outline: 0px;
+}
+
+QComboBox QAbstractItemView{
+    color:rgb(18,18,18);
+    background: white;
+    outline: 0px;
+}
+
+QComboBox QAbstractItemView::item{
+    height:30px;
+    outline: 0px;
+}
+
+QComboBox::drop-down:editable {
+    outline: 0px;
+    width: 35px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+QComboBox::down-arrow {
+    border-image: url(:/img/arrow_down.png);
+}
+
+QComboBox::down-arrow:hover {
+    border-image: url(:/img/show_more_hover.png);
+}
+
+
+QDateEdit
+{
+    font-size: 16px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    spacing: 5px;
+}
+
+QDateEdit::drop-down
+{
+    width: 25px;
+    border-image: url(:/img/arrow_down.png);
+    background: gray;
+}
+
+QCalendarWidget QTableView
+{
+    background-color: white;
+}
+
+
+QTableView {
+    font-family: 'Tahoma';
+    gridline-color: black;                 /*表格内框颜色*/
+    background-color: black;               /*表格内背景色*/
+    alternate-background-color: rgb(99, 176, 72);
+    selection-color: white;                             /*选中区域的文字颜色*/
+    selection-background-color: red;        /*选中区域的背景色*/
+    outline:0px;
+}
+
+
+QListWidget{
+    outline:0px;
+    height: 85px;
+    background: rgb(18,18,18);
+    color: rgb(200,200,200);
+    padding-left: 25px;
+    border: 0;
+}
+
+QListWidget::item{
+    font-family: 'Tahoma';
+    height: 85px;
+    color: white;
+    margin-right:20px;
+}
+
+QListWidget::item:hover{
+    border-left:5px solid #fba414;
+}
+
+QListWidget::item:selected
+{
+    border-left:5px solid rgb(99,176,72);
+}
+
+
+QCheckBox
+{
+    font-family: 'Tahoma';
+    spacing: 10px;
+    Color: rgb(18,18,18);
+    Background: white;
+}
+
+QCheckBox::indicator {
+    Width:18px;
+    Height:18px;
+}
+
+QCheckBox::indicator:unchecked{
+    image:url(:/img/unchecked.png);
+}
+
+QCheckBox::indicator:checked{
+    image:url(:/img/checked.png);
+}
+
+
+
+QScrollArea{
+    border: 0px solid;
+    border-right-width: 1px;
+    border-right-color: rgb(18,18,18);
+    background-color: rgb(18,18,18);
+}
+QScrollBar:vertical {
+    border: none;
+    background: rgb(18,18,18);
+    width: 12px;
+    margin: 0px 0 0px 0;
+}
+QScrollBar::handle:vertical {
+    background: Gainsboro;
+    min-height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+QScrollBar::add-line:vertical {
+    border: 0px;
+    background: rgb(18,18,18);
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    border: 0px;
+    background: rgb(18,18,18);
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+    width: 0px;
+    height: 0px;
+}
+
+QMessageBox{
+    background: white;
+}
+QMessageBox QPushButton{
+    background: rgb(225,225,225);
+    color:black;
+    border: 0px solid grey;
+    border-radius: 0px;
+    padding: 10px 30px 10px 30px;
+    font-weight:normal;
+}

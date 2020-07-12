@@ -1,0 +1,26 @@
+#ifndef SINGLEDATA_H
+#define SINGLEDATA_H
+
+//#include "../dataclass/video.h"
+#include "../dataclass/user.h"
+#include <list>
+#include "../tool/singledboption.h"
+
+class SingleData
+{
+public:
+    static SingleData *getGetInstance();
+    //static list<Video> *getVideoList();
+    list<User> *getUserList();
+    int searchUserByNameAndPwd(QString name,QString pwd);
+    void addUser(QString name,QString pwd);
+    ~SingleData();
+private:
+    SingleData();
+    static void InitUserList();
+    static SingleData *instance;
+    //static list<Video> *videoList;
+    static list<User> *userList;
+};
+
+#endif // SINGLEDATA_H

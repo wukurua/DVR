@@ -1,0 +1,100 @@
+#include "singledata.h"
+
+SingleData *SingleData::instance=nullptr;
+//list<Video> *SingleData::videoList=nullptr;
+list<User> *SingleData::userList=nullptr;
+
+SingleData *SingleData::getGetInstance()
+{
+    if(instance==nullptr)
+    {
+        instance=new SingleData();
+        //videoList=new list<Video>;
+        userList=new list<User>;
+        InitUserList();
+    }
+    return instance;
+}
+/*
+list<Video> *SingleData::getVideoList()
+{
+    return videoList;
+}*/
+
+list<User> *SingleData::getUserList()
+{
+    return userList;
+}
+
+int SingleData::searchUserByNameAndPwd(QString name, QString pwd)
+{
+    list<User>::iterator it=userList->begin();
+    for(;it!=userList->end();++it)
+    {
+        if(it->getName()==name&&it->getPwd()==pwd)//find this user in cache
+        {
+            return 0;
+        }
+    }
+    if(it==userList->end())//not find in cache
+    {
+        QString sql="SELECT * FROM t_user WHERE uName='"+name+"' AND pwd='"+pwd+"';";
+        int col,row;
+        char **pResult;
+        int res=SingleDBOption::getTable(sql,pResult,row,col);
+        if(res==0)//find in table t_user
+        {
+            //add user to cache
+            userList->push_back(User(pResult[col+1],pResult[col+2],pResult[col+3]));
+
+            int col,row;
+            SingleDBOption::getTable("SELECT count(rid) FROM t_loginHistory;",pResult,row,col);
+            if(row<=6)//5 row + 1 title
+            {
+                SingleDBOption::getTable("INSERT OR REPLACE INTO t_loginHistory (uName,pwd) VALUES('"+name+"','"+pwd+"');",pResult,row,col);
+            }
+            else
+            {
+                //excess the upper limit 5 row
+                SingleDBOption::getTable("DELETE FROM t_loginHistory WHERE uName=(SELECT uName FROM t_loginHistory LIMIT 1 OFFSET 0);",pResult,row,col);
+            }
+        }
+        else
+        {
+            return 1;//login failed
+        }
+    }
+    return 0;
+}
+
+void SingleData::addUser(QString name, QString pwd)
+{
+    
+}
+
+SingleData::~SingleData()
+{
+    delete instance;
+    //delete videoList;
+    delete userList;
+}
+
+SingleData::SingleData()
+{
+}
+
+void SingleData::InitUserList()
+{
+    int col,row;
+    char **pResult;
+    int res=SingleDBOption::getTable("SELECT * FROM t_loginHistory;",pResult,row,col);
+    if(res==0)
+    {
+        for(int i=col;i<=col*row;i=i+col)
+        {
+            userList->push_back(User(pResult[i+1],pResult[i+2],pResult[i+3]));
+        }
+    }
+}
+
+
