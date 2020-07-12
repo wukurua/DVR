@@ -16,16 +16,16 @@
 
 **程序运行预览**：
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232353.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232353.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232658.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232658.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232747.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712232747.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234523.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234523.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234538.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234538.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234455.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234455.png" style="zoom:67%;" />
 
-![](https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234556.png)
+<img src="https://cdn.jsdelivr.net/gh/wukurua/cloudimg@master/img/20200712234556.png" style="zoom:67%;" />
