@@ -18,17 +18,17 @@
 
 **FFPMEG框架的具体应用过程**：
 
-[https://wukurua.github.io/2020/05/31/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(1)%E7%AE%80%E4%BB%8B%E5%92%8C%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/](FFMPEG框架学习——(1)简介和环境安装)
+[FFMPEG框架学习——(1)简介和环境安装](https://wukurua.github.io/2020/05/31/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(1)%E7%AE%80%E4%BB%8B%E5%92%8C%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/)
 
-[https://wukurua.github.io/2020/06/05/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(2)%E8%A7%86%E9%A2%91%E7%9A%84%E6%8F%90%E5%8F%96%E5%92%8C%E8%A7%A3%E7%A0%81/ ](FFMPEG框架学习——(2)视频的提取和解码)
+[FFMPEG框架学习——(2)视频的提取和解码](https://wukurua.github.io/2020/06/05/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(2)%E8%A7%86%E9%A2%91%E7%9A%84%E6%8F%90%E5%8F%96%E5%92%8C%E8%A7%A3%E7%A0%81/)
 
-[https://wukurua.github.io/2020/06/12/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(3)%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81/](FFMPEG框架学习——(3)视频编码)
+[FFMPEG框架学习——(3)视频编码](https://wukurua.github.io/2020/06/12/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(3)%E8%A7%86%E9%A2%91%E7%BC%96%E7%A0%81/)
 
-[https://wukurua.github.io/2020/06/14/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(4)%E8%A7%86%E9%A2%91%E8%BD%AC%E7%A0%81/](FFMPEG框架学习——(4)视频转码)
+[FFMPEG框架学习——(4)视频转码](https://wukurua.github.io/2020/06/14/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(4)%E8%A7%86%E9%A2%91%E8%BD%AC%E7%A0%81/)
 
-[https://wukurua.github.io/2020/06/16/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(5)%E6%91%84%E5%83%8F%E5%A4%B4/](FFMPEG框架学习——(5)采集摄像头数据并保存为mp4文件)
+[FFMPEG框架学习——(5)采集摄像头数据并保存为mp4文件](https://wukurua.github.io/2020/06/16/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(5)%E6%91%84%E5%83%8F%E5%A4%B4/)
 
-[https://wukurua.github.io/2020/06/18/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(6)windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E9%85%8D%E7%BD%AE/ ](FFMPEG框架学习——(6)windows环境下的配置)
+[FFMPEG框架学习——(6)windows环境下的配置](https://wukurua.github.io/2020/06/18/FFMPEG%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0-(6)windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E7%9A%84%E9%85%8D%E7%BD%AE/)
 
 
 
