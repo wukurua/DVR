@@ -1,5 +1,6 @@
 language: cpp
 compiler:
-  - clang
   - gcc
 os: windows
+only:
+  - src
