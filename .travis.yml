@@ -1,6 +1,0 @@
-language: cpp
-compiler:
-  - gcc
-os: windows
-only:
-  - src
